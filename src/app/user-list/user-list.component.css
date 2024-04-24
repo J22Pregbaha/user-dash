@@ -1,0 +1,32 @@
+.user-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: 50%;
+}
+
+.user-card:hover {
+  transform: scale(1.05);
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+.loading-indicator {
+  text-align: center;
+  margin-top: 20px;
+}

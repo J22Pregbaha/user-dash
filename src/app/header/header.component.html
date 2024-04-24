@@ -1,0 +1,7 @@
+<header>
+  <h1>Welcome to User Management</h1>
+  <form (ngSubmit)="searchUsers()">
+    <input type="text" placeholder="Search by ID" [ngModel]="searchQuery" name="searchQuery">
+    <button type="submit">Search</button>
+  </form>
+</header>

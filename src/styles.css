@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Add more styling as needed */
