@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { FormsModule } from '@angular/forms';
+import { HighlightDirective } from './highlight.directive';
 
 const routes: Routes = [
   { path: '', component: UserListComponent },
@@ -19,7 +20,8 @@ const routes: Routes = [
     AppComponent,
     HeaderComponent,
     UserListComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
